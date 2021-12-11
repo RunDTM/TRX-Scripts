@@ -116,4 +116,4 @@ game:service "Players".LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid").
     end
 )
 
-game:service "StarterGui":SetCore("SendNotification", {Title = "Fly", Text = "Press E to fly", Button1 = "ok"})
+trx.notify("Fly loaded! Press \"E\" to fly.")
